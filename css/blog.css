@@ -1,0 +1,41 @@
+/* 3.8-Blog section. */
+.Blog {
+  background-color: var(--bg_gray);
+}
+.blog-sec {
+  width: 30%;
+  margin: 1%;
+  float: left;
+  background-color: #fff;
+}
+.blog-sec div {
+  width: 100%;
+}
+.list-inf li {
+  display: inline-block;
+  text-transform: capitalize;
+  margin: 15px 10px;
+}
+.list-inf li i {
+  color: var(--blue);
+}
+.blog-title {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.blog-dec {
+  font-size: 18px;
+  color: #82797a;
+}
+.text-sec {
+  padding: 10px;
+}
+.text-sec a {
+  color: var(--blue);
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 10px 0;
+}
+.text-sec a:hover {
+  color: var(--blue_hv);
+}

@@ -1,0 +1,54 @@
+/* 3.9-Contact section. */
+.contact-mthd {
+  float: left;
+  margin: 1%;
+  width: 30%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.contact-mthd i {
+  color: var(--blue);
+}
+.contact-mthd .title {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.contact-mthd .address {
+  font-size: 14px;
+  color: #82797a;
+}
+.contact .form {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.form-elemnts.head {
+  width: 48%;
+  float: left;
+}
+.form-elemnts {
+  margin: 1%;
+  width: 98%;
+  background-color: #f9f9f9;
+  border: 2px solid var(--border-gray);
+  border-radius: 4px;
+  padding: 5px;
+}
+.form-elemnts:focus {
+  border-top: 1px solid var(--blue);
+  border-right: 1px solid var(--blue);
+  border-bottom: 2px solid var(--blue);
+  border-left: 1px solid var(--blue);
+  outline: none;
+}
+.submit {
+  background-color: var(--blue);
+  color: #fff;
+  position: relative;
+  bottom: 0px;
+  left: 50%;transform: translatex(-50%);
+}
+.submit:hover {
+  background-color: var(--blue_hv);
+}

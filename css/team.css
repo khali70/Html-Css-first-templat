@@ -1,0 +1,117 @@
+/* 3.7-Team section. */
+/* 3.7.0-Team section. */
+.team-members {
+  background-image: url(../images/background/background3.webp);
+  background-position: center;
+  background-attachment: fixed;
+}
+.team-members .members {
+  width: 50%;
+  float: left;
+  margin: 100px 0;
+}
+.head-slide .member-img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.head-slide > div {
+  display: inline-block;
+}
+.head-slide .member-info {
+  padding: 0 20px;
+  position: relative;
+}
+.head-slide .member-info .name {
+  text-transform: capitalize;
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  font-size: 24px;
+  width: 120px;
+}
+.head-slide .member-info .dec {
+  text-transform: capitalize;
+  color: var(--blue);
+  font-size: 17px;
+  position: absolute;
+  bottom: 15px;
+  width: 150px;
+}
+.body .shit-chat {
+  color: #fff;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+/* 3.7.1-Team section. */
+.member-sec {
+  float: left;
+  width: 30%;
+  margin: 1%;
+  background-color: var(--bg_gray);
+  padding: 40px 20px;
+}
+.member-sec .member-photo {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  transition: opacity 0.3s;
+}
+.member-sec:hover .member-photo {
+  opacity: 0.8;
+}
+.socail-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.socail-links li {
+  background-color: #4684ffe8;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: background-color 0.3s, opacity 0.5s;
+}
+.member-sec:hover li {
+  visibility: visible;
+  opacity: 1;
+}
+.socail-links li:hover {
+  background-color: #4280ff;
+}
+.socail-links li a {
+  padding: 10px;
+  display: block;
+}
+.socail-links .icon {
+  color: #fff;
+}
+.mgr {
+  margin-right: 5px;
+}
+
+.team-content {
+  text-align: center;
+  position: relative;
+}
+.team-content .name-sec {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 10px 0;
+  transition: color 0.5;
+}
+.member-sec:hover .team-content .name-sec {
+  color: #fff;
+}
+.team-content .job-title {
+  text-transform: capitalize;
+  color: #b9b9b9;
+  transition: color 0.5;
+}
+.member-sec:hover .team-content .job-title {
+  color: var(--blue);
+}

@@ -1,0 +1,52 @@
+/*3.1-Home section.*/
+
+.home {
+  height: 100vh;
+  background-image: url(../images/background/background1.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 75%;
+  font-size: 10px;
+}
+.home .title {
+  color: #fff;
+  font-size: 6em;
+  text-transform: capitalize;
+}
+.home .dec {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 10px 0 20px 0;
+}
+.btn,
+.submit {
+  min-width: 160px;
+  padding: 13px 0;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 2em;
+  transition: background-color 0.3s;
+}
+.btn-start:hover {
+  background-color: #d9d9d9;
+}
+.btn-learn_more:hover {
+  background-color: var(--blue_hv);
+}
+.btn-learn_more {
+  background-color: var(--blue);
+  color: #fff;
+  margin-left: 10px;
+}
+
+

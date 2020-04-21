@@ -1,0 +1,87 @@
+/* 3.3-portfolio section. */
+.portofolio {
+  background-color: var(--bg_gray);
+}
+.portofolio-3sec {
+  overflow: hidden;
+}
+.portofolio-sec {
+  width: 31%;
+  min-width: 205px;
+  display: inline-block;
+  margin-bottom: 2%;
+  position: relative;
+  padding: 20px;
+}
+.portofolio-sec > img {
+  width: 100%;
+}
+
+.portofolio-sec > .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+.portofolio-sec:hover > .cover {
+  opacity: 1;
+  visibility: visible;
+}
+.portofolio-sec > .cover > .hero {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  text-align: center;
+}
+.portofolio-sec > .cover > .hero > .category {
+  color: var(--blue);
+  font-size: 25px;
+  text-transform: capitalize;
+  transition-delay: top 1s;
+}
+.portofolio-sec > .cover > .hero > .cover-title {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  transition-delay: top 2s;
+}
+.portofolio-sec > .cover > .hero > a > .icon {
+  padding: 13px;
+  background-color: var(--blue);
+  color: #fff;
+  border-radius: 3px;
+  transition-delay: top 3s;
+  transition: background-color 0.2s;
+}
+.portofolio-sec > .cover > .hero > a > .icon:hover {
+  background-color: var(--blue_hv);
+}
+
+.portofolio-sec > .cover > .icon.mg-r {
+  margin-right: 0.5%;
+}
+.portofolio-sec > .cover > .hero > a > .icon,
+.portofolio-sec > .cover > .hero > .cover-title,
+.portofolio-sec > .cover > .hero > .category {
+  position: relative;
+  top: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.5s, opacity 0.3s;
+  /* transition-delay: 0.5; */
+}
+.portofolio-sec:hover > .cover > .hero > a > .icon,
+.portofolio-sec:hover > .cover > .hero > .cover-title,
+.portofolio-sec:hover > .cover > .hero > .category {
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}

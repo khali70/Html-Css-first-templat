@@ -1,0 +1,91 @@
+/* 3.5-serveices section */
+
+/* 3.5.1-why choose us.  */
+.Serveices {
+  background-color: var(--bg_gray);
+}
+.Serveices .block {
+  float: left;
+  width: 50%;
+}
+.Serveices .block .img-con {
+  width: 100%;
+}
+.Serveices .block img {
+  width: 100%;
+}
+.Serveices .block .section-title {
+  text-align: left;
+}
+.Serveices .block .section-bar {
+  margin: 0 0 70px 0;
+}
+.Serveices .block .p-text {
+  color: #82797a;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+}
+.Serveices .block .first-ul li {
+  padding: 5px 0;
+  color: #82797a;
+}
+.Serveices .block .first-ul li i {
+  color: var(--blue);
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--blue) 61;
+  border-radius: 50%;
+  padding-top: 3px;
+}
+.Serveices .block .second-ul {
+  position: relative;
+}
+
+.Serveices .block .second-ul li {
+  width: 5px;
+  height: 5px;
+  padding: 5px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #899999;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+}
+/*3.5.2 number section */
+.nums {
+  background-image: url(../images/background/background2.webp);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.nums .num-sec {
+  overflow: hidden;
+}
+.nums .num-sec .content {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 50px 0;
+}
+.nums .num-sec .content .icon {
+  display: block;
+  color: var(--blue);
+}
+.trophy {
+  font-size: 35px;
+}
+.nums .num-sec .content span {
+  display: block;
+  color: #fff;
+  text-transform: capitalize;
+}
+.nums .num-sec .content span.num {
+  font-size: 2rem;
+  padding: 10px 0;
+}
+.nums .num-sec .content span.dec {
+  letter-spacing: 1px;
+}

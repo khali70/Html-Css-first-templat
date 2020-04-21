@@ -1,0 +1,50 @@
+/* 3.4-offers section. */
+
+.offer {
+  background-color: #fff;
+}
+.offers {
+  overflow: hidden;
+}
+.offers-sec {
+  border: 1px solid #b9b9b9;
+  float: left;
+  width: 30%;
+  height: 200px;
+  margin: 1%;
+}
+
+.offers-sec .mg-co {
+  overflow: hidden;
+  width: 94%;
+  height: 83%;
+  margin: 30px 0 0 20px;
+}
+.offers-sec .mg-co .icon-co {
+  float: left;
+  height: 100%;
+  width: fit-content;
+  margin-right: 15px;
+}
+.offers-sec .mg-co .icon-co .icon {
+  color: var(--blue);
+  margin-top: 3px;
+}
+.offers-sec .mg-co .content {
+  float: left;
+  height: 100%;
+  width: 80%;
+}
+.offers-sec .mg-co .content .offer-title {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.ltr-effect:hover .offer-title {
+  color: #fff;
+}
+.p {
+  color: #82797a;
+}
+.ltr-effect:hover .p {
+  color: #899999;
+}
