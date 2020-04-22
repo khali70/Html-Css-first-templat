@@ -1,4 +1,4 @@
-@media (max-width: 1150px) {
+@media screen and (max-width: 1150px) {
     .Nav_Bar .nav_ul {
       width: 88%;
     }
@@ -10,7 +10,7 @@
       right: 0;
     }
 }
-@media (max-width:900px){
+@media screen and (max-width:900px){
     .Nav_Bar .nav_ul{
       min-width: min-content;
     }
@@ -18,7 +18,7 @@
       width:110px;
     }
 } 
-@media (max-width:850px){
+@media screen and (max-width:850px){
     .home-content{
       font-size: 8px;
       top: 60%;
@@ -64,7 +64,7 @@ last chiled margin auto items
 */
 
 }
-@media (max-width:500px){
+@media screen and (max-width:500px){
     .home .home-content{
       width: 100%;
       font-size: 5px;
