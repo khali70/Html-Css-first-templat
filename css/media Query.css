@@ -1,58 +1,58 @@
 @media screen and (max-width: 1150px) {
-    .Nav_Bar .nav_ul {
-      width: 88%;
-    }
-    .Nav_Bar .logo {
-      width: 12%;
-    }
-    .Nav_Bar .logo img.logo_img {
-      position: static;
-      right: 0;
-    }
+  .Nav_Bar .nav_ul {
+    width: 88%;
+  }
+  .Nav_Bar .logo {
+    width: 12%;
+  }
+  .Nav_Bar .logo img.logo_img {
+    position: static;
+    right: 0;
+  }
 }
-@media screen and (max-width:900px){
-    .Nav_Bar .nav_ul{
-      min-width: min-content;
-    }
-    .Nav_Bar .logo{
-      width:110px;
-    }
-} 
-@media screen and (max-width:850px){
-    .home-content{
-      font-size: 8px;
-      top: 60%;
-    }
-    .about-3sec .margin{
-        margin: 0;
-    }
-    .about-sec,
-    .portofolio-sec,
-    .offers-sec,
-    .price .price-sec,
-    .member-sec,
-    .blog-sec{
-        width: 48%;
-    }
-    .about-sec:nth-child(3),
-    .price .price-sec:nth-child(3),
-    .member-sec:nth-child(3),
-    .blog-sec:nth-child(4){
-        margin: 1% 25%;
-    }
-    .rev{
-        position: relative;
-    }
-    .Serveices .block{
-        width: 100%;
-        margin-top: 80%;
-    }
-    #abs{
-        margin: 0;
-        position: absolute;
-    }
+@media screen and (max-width: 900px) {
+  .Nav_Bar .nav_ul {
+    min-width: min-content;
+  }
+  .Nav_Bar .logo {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .home-content {
+    font-size: 8px;
+    top: 60%;
+  }
+  .about-3sec .margin {
+    margin: 0;
+  }
+  .about-sec,
+  .portofolio-sec,
+  .offers-sec,
+  .price .price-sec,
+  .member-sec,
+  .blog-sec {
+    width: 48%;
+  }
+  .about-sec:nth-child(3),
+  .price .price-sec:nth-child(3),
+  .member-sec:nth-child(3),
+  .blog-sec:nth-child(4) {
+    margin: 1% 25%;
+  }
+  .rev {
+    position: relative;
+  }
+  .Serveices .block {
+    width: 100%;
+    margin-top: 80%;
+  }
+  #abs {
+    margin: 0;
+    position: absolute;
+  }
 
-/* 
+  /* 
 last chiled margin auto items
     .about-sec,
     .price .price-sec,
@@ -62,44 +62,44 @@ last chiled margin auto items
 
 
 */
-
 }
-@media screen and (max-width:500px){
-    .home .home-content{
-      width: 100%;
-      font-size: 5px;
-    }
-    .home .dec{
-      font-size: 2em;
-    }
-    .btn{
-      max-width: 130px;
-      font-size: 2.5em;
-    }
-    .team-members .members{
-        width: 100%;
-        margin: 10px 0;
-    }
-    .member-sec{
-        width: 100%;
-    }
-    .about-sec,
-    .portofolio-sec,
-    .offers-sec,
-    .price .price-sec,
-    .member-sec,
-    .blog-sec{
-        width: 98%;
-    }
-    .about-sec:nth-child(3),
-    .price .price-sec:nth-child(3),
-    .member-sec:nth-child(3),
-    .blog-sec:nth-child(4){
-        margin:1%;
-    }
-    .contact .continer{
-        width: 100%;
-    }
-    .contact-mthd .address{
-        font-size: 12px;
-    }
+@media screen and (max-width: 500px) {
+  .home .home-content {
+    width: 100%;
+    font-size: 5px;
+  }
+  .home .dec {
+    font-size: 2em;
+  }
+  .btn {
+    max-width: 130px;
+    font-size: 2.5em;
+  }
+  .team-members .members {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .member-sec {
+    width: 100%;
+  }
+  .about-sec,
+  .portofolio-sec,
+  .offers-sec,
+  .price .price-sec,
+  .member-sec,
+  .blog-sec {
+    width: 98%;
+  }
+  .about-sec:nth-child(3),
+  .price .price-sec:nth-child(3),
+  .member-sec:nth-child(3),
+  .blog-sec:nth-child(4) {
+    margin: 1%;
+  }
+  .contact .continer {
+    width: 100%;
+  }
+  .contact-mthd .address {
+    font-size: 12px;
+  }
+}
